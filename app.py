@@ -7,7 +7,7 @@ app = Flask(__name__)
 CORS(app)
 
 # Connect to local MongoDB instance
-client = MongoClient("mongodb://localhost:27017")
+client = MongoClient("mongodb+srv://MohammadSalehaSamreen:samreen@mongodb-cloud-server.j4ai2rm.mongodb.net/")
 db = client["userdb"]
 collection = db["users"]
 
